@@ -1,0 +1,50 @@
+.wall {
+    text-align: center;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 100rem;
+    height: 90vh;
+    padding: 2rem;
+}
+
+.wall-config {
+    border-radius: 3rem;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    max-width: 80rem;
+    min-height: 15rem;
+    height: 80%;
+    margin-bottom: 4rem;
+    transition: all 0.25s ease;
+    padding: 5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.glow {
+    font-size: 80px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    animation: glow 2.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 2px #ffffffa0, 0 0 6px #ffffffa0;
+    }
+    
+    to {
+      text-shadow: 0 0 6px #ffffffa0 , 0 0 2px #ffffffa0;
+    }
+  }
+
+@media (max-width: 480px) {
+    .wall{
+        padding: 0;
+    }
+
+    .glow {
+        font-size: 2rem;
+    }
+}
