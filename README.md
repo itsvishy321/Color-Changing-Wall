@@ -1,6 +1,8 @@
 # Color-Changing-Wall
 It is a React App which works on the user's input as a color name , color hash code (Example #333) , color rgb value. And shows the same color as an output.
 
+# Link for the React App - https://custom-color-wall.netlify.app/ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
